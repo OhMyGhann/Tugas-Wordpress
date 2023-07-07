@@ -1,0 +1,95 @@
+/*
+Theme Name : Labs Theme
+Author : OhMyGhan
+Author URL : http://www.labakselerasi.com/
+Description : My Fist responsive HTML5 theme
+Version : 1.0
+License : GNU General Public License v3 or later
+License URI : http://www.gnu.org/license/gpl-3.0.html
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Helvetica;
+
+}
+
+.my-logo,
+footer {
+  width: 100%;
+  padding-left: 1%;
+  margin-bottom: 8px;
+  background-color: #78baff;
+  border: 1px solid #78baff;
+}
+body > header > h1 > a {
+  color: #ffffff;
+  font-weight: 400;
+}
+article > header {
+}
+footer {
+  margin-top: 4px;
+}
+a {
+  text-decoration: none;
+}
+/* 'Margin: 0 auto' centers block content on the page */
+.wrap {
+  width: 99%;
+  margin: 0 auto;
+}
+.content-area {
+  display: inline-block;
+}
+.content-thin {
+    width: 70%;
+}
+.content-full-width {
+    width: 100%;
+}
+.content-area,
+.primary-sidebar {
+  display: inline-block;
+}
+.primary-sidebar {
+  width: 25%;
+  padding: 1%;
+  vertical-align: top;
+  background-color: #ececec;
+}
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+.article-full {
+  width: 99%;
+  padding: 1%;
+}
+.article-loop,
+.article-full {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .article-loop {
+      width: 99%;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,81 @@
+/* employee-management.css */
+
+/* Style for the main heading */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for the form inputs */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the success notice */
+  .notice-success {
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for the table header */
+  table th {
+    background-color: #f8f9fa;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style for the table cells */
+  table td {
+    padding: 10px;
+  }
+  
+  /* Style for the edit form */
+  .edit-form {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the edit form labels */
+  .edit-form label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  /* Style for the edit form inputs */
+  .edit-form input[type="text"],
+  .edit-form input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
